@@ -107,7 +107,7 @@
     right: 100px;
     width: 50px;
     transform: rotate(180deg);
-    animation: rotate-gear_3 8s linear infinite;
+    animation: rotate-gear_1 8s linear infinite;
 }
 .big_one{
     display: flex;
@@ -117,7 +117,7 @@
     left: 100px;
     width: 120px;
     transform: rotate(180deg);
-    animation: rotate-gear_3 8s linear infinite;
+    animation: rotate-gear_2 8s linear infinite;
 }
 
 /* ----------------------------
@@ -139,13 +139,5 @@ media
     }
     100%{
         transform: rotate(-180deg);
-    }
-}
-@keyframes rotate-gear_3{
-    0%{
-        transform: rotate(-180deg);
-    }
-    100%{
-        transform: rotate(180deg);
     }
 }
